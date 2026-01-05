@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: b98de79c40eef7b4c850b19aeca0f11f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BM_door01_met
+    second: {fileID: 2100000, guid: 8a4c46a9657ba6f4fbc8a10b18d14f3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BM_door05_trx
+    second: {fileID: 2100000, guid: 643f671511de2a745baa583f8513dbd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseMetal
+    second: {fileID: 2100000, guid: 304b9db2793fbcd4fa60cff47f5a11e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 5659fba8751a8f247a594ee137b78bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrumBump
+    second: {fileID: 2100000, guid: 4c21b37ed58757d49a855a952eb76549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DryerControls
+    second: {fileID: 2100000, guid: 0cc8f336e18c76348920caaa9138895e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 88a93effdc06e44489df068c03e6d5db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WALL
+    second: {fileID: 2100000, guid: b728927a8ff8a964eb21f0334c8af1be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Dianti6_met
+    second: {fileID: 2100000, guid: 4ca3a6786901aca4db04cf54a9caefc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Loutijian_met
+    second: {fileID: 2100000, guid: 7ab85e9fd9ae199489a5405a9c92f2f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Sushemen_met
+    second: {fileID: 2100000, guid: 015131b3586060a4b9328d0924c7b987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_XFQC_mihuoqixiang_met
+    second: {fileID: 2100000, guid: 97d2dfaa97a73fb4a8e9b43b19e07e0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_XFQC_tx_017_met
+    second: {fileID: 2100000, guid: 2f3751c030aa65243b21d271eaa7912f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_XFQC_tx_018
+    second: {fileID: 2100000, guid: 0b43e97a2c293b649b62ab5f72dbf7ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_XFQC_xiaofangshuanxiang_met
+    second: {fileID: 2100000, guid: eadeef7d629066540958d27c660c4672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_XFQC_xiaofangshuanxiang_trn_met
+    second: {fileID: 2100000, guid: 7549a6afefd941d4ba556b0128851ee8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Xishoutai_met
+    second: {fileID: 2100000, guid: a21c24e22ac2aee47a0b0cba45f49edb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_cesuomen_met
+    second: {fileID: 2100000, guid: 6e3b5a60e54347c418d319c48438839e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_cesuomen_trn_met
+    second: {fileID: 2100000, guid: 6c881aef1ab98e54393efbdfa11eb2cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_chuanghu__met
+    second: {fileID: 2100000, guid: 703393730dff6864db3dfde2974e9597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_chuanghu_trn_met
+    second: {fileID: 2100000, guid: f7a188f322188a84e91d63698527c2e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_cizhuan_met
+    second: {fileID: 2100000, guid: 3e886bfdf0634334fb97c9b43d41f10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_dianzha_trn_met
+    second: {fileID: 2100000, guid: 575a08561725423489581665374bc840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_ground_met
+    second: {fileID: 2100000, guid: 7a50ebf0884358446a52ae7a7d61703c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_langan_met
+    second: {fileID: 2100000, guid: cb058ab215deb8b4698884f7c1d0479f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_mengB_met
+    second: {fileID: 2100000, guid: f25a575034b816c42b09ffbebce91814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_shuiguanliangyijia_met
+    second: {fileID: 2100000, guid: 4500d4f4fcb89b14eba246a11cc2993c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_taimian
+    second: {fileID: 2100000, guid: c0679a4480eb1a148ac7315bd8093270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_022_met
+    second: {fileID: 2100000, guid: 85a31176e3650294ab6830ca0a7ccdb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn73
+    second: {fileID: 2100000, guid: ac6977af83e00bb4c913ecc0cb1ae5f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn83
+    second: {fileID: 2100000, guid: 614c7ecc4df2dd745abb7832bf5c0750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn89
+    second: {fileID: 2100000, guid: 7036a6d896c52394782f7ddb21f502c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn90
+    second: {fileID: 2100000, guid: d5333e491e9587f41a95f31b1aa2ef09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emiss
+    second: {fileID: 2100000, guid: ca5f692132ffd5842b4d31cfc12dd3a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: c088f7c0686521e498019f2f4142c036, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Albedo_2K__uh1kajrv
+    second: {fileID: 2800000, guid: bb4b2a88d5964134eb2307ffc97de1a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Albedo_2K__uifhcb1l
+    second: {fileID: 2800000, guid: 661e3b72091ffbd44942c196fe5de264, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Albedo_2K__wi5hccujw
+    second: {fileID: 2800000, guid: 1d3627cd62ec08f4e89c4e988ea483d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BM_door01_TX_AlbedoTransparency
+    second: {fileID: 2800000, guid: e68e0505bc3ac45459fe14bdeae11284, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BM_door05_L_001_BM_door05_TX_AlbedoTransparency
+    second: {fileID: 2800000, guid: 7ce56f5b4ce9c3647a5798991cbb3f25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BM_door05_L_001_BM_door05_TX_MetallicSmoothness
+    second: {fileID: 2800000, guid: 642fcb190b996f843944ec85511ea598, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BM_door05_L_001_BM_door05_TX_Normal
+    second: {fileID: 2800000, guid: 65f4e678a96d57a438ba368b6694352f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CHUANGKUANG_XFHZ_chuanghukuang_AlbedoTransparency
+    second: {fileID: 2800000, guid: 950ceae4ee44c1d4d8817ec815fe0c6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CHUANGKUANG_XFHZ_chuanghukuang_MetallicSmoothness
+    second: {fileID: 2800000, guid: 81d9641cbd53e724abf4ec3d73234d87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CHUANGKUANG_XFHZ_chuanghukuang_Normal
+    second: {fileID: 2800000, guid: 225a7ca0dfa832648bed4a33e44359a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble016_1K-PNG_Color
+    second: {fileID: 2800000, guid: 2abcfa348c5a72a42a61f9730cfe2f01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble016_1K-PNG_NormalDX
+    second: {fileID: 2800000, guid: 12388834fcac266448e91c3b1e2aced5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Normal_2K__uh1kajrv
+    second: {fileID: 2800000, guid: e3ffe667e65b8a440a8a2371502ffd68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Normal_2K__uifhcb1l
+    second: {fileID: 2800000, guid: 1651235698a01d8478747017835759b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Normal_2K__wi5hccujw
+    second: {fileID: 2800000, guid: efae5bda9821b1f4d94482bf12f92135, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WasherCntrls
+    second: {fileID: 2800000, guid: f1de90b8c2cd38b4483a2ff7eb8ba316, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Dianti6_tx_AlbedoTransparency
+    second: {fileID: 2800000, guid: 9c47e055bd12c204089f1d31b729cda6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Dianti6_tx_Normal
+    second: {fileID: 2800000, guid: f8f88e23c8600c748adb2baa251bd5a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Loutijian_tx_001_AlbedoTransparency
+    second: {fileID: 2800000, guid: 3206b318b938fe14799cb37cb67e5385, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Loutijian_tx_001_Normal
+    second: {fileID: 2800000, guid: 3eddb60ae492c2743a6a471b29d9620a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Shuiguanliangyijia_Normal.1001
+    second: {fileID: 2800000, guid: de486971ca42ace45b55201e551bd4b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Shuiguanliangyijia_l_mo_001_blinn2_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: de185777a796a2144bed3693dc901183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Sushemen_tx_BaseColor
+    second: {fileID: 2800000, guid: f1ca6d34d75288e48a7dae749116678d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_XFQC_tx_015_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: dcc3287b4605070468031bcb7f9361ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_cesuomen_tx_Normal
+    second: {fileID: 2800000, guid: aba5ce3f3f5102546a7f72b3a2c8cbd4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_cesuomen_tx_albedo
+    second: {fileID: 2800000, guid: c51c08394b7cb8742b28dae9ed9cd885, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_chuanghu_AlbedoTransparency - Copy
+    second: {fileID: 2800000, guid: 440dbc60dac53614f9a1ce22e53030c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_chuanghu_Normal - Copy
+    second: {fileID: 2800000, guid: d16d2212071214948a5f1176492094e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_dianzha_trn_002_AlbedoTransparency
+    second: {fileID: 2800000, guid: 423e951cbda0f3343810bf2e21b0d587, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_dianzha_tx_01_Normal
+    second: {fileID: 2800000, guid: fc95ee6bf22b2844db760c3c6e66b217, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_langan_XFHZ_langan1_AlbedoTransparency
+    second: {fileID: 2800000, guid: 07b3e2e4eeb2b7a42b83e95ed2ad4a2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_langan_XFHZ_langan1_MetallicSmoothness
+    second: {fileID: 2800000, guid: 4c8d80b9d52f72e4dae59ecb2f7f932c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_mengB_AlbedoTransparency
+    second: {fileID: 2800000, guid: 403d1db61bdfdd44f8879b408e2a9615, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_trn_007_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: fac10d471eee0624b8538bba4cf7978e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_007_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 28f136cdd0125034db9cdcb9ecd6f540, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_017_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 75ff136b6c50897488fda5ce1991439e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_017_Normal.1001
+    second: {fileID: 2800000, guid: 8215133cc6d61504e9d1a9f4ffbe0aa1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_018_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 933fd369f4002ff4caadeb9ab79b1e1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_022_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 40554948dd5352f4da6e3ebb14826594, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _XFHZ_XFQC_tx_025_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: c81e1dbb21f27e74695af2ff30a94ff6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _standardSurface2_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: ab2e4e4446f7d4c4792bde1f9d12bd72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: _standardSurface2_Normal.1001
+    second: {fileID: 2800000, guid: ea6029ff7f5f90f458da10f281ba0589, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: low_blinn3_AlbedoTransparency
+    second: {fileID: 2800000, guid: 4d9abaf4dc1b66a43b15685831e353e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: low_blinn3_Normal
+    second: {fileID: 2800000, guid: 18d53fd2ee8928d4ab10dfc550d56cea, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
