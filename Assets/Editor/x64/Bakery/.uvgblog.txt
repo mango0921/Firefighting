@@ -1,0 +1,1430 @@
+2026-1-9
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA4 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA5 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA6 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA3.lz4" 2 0 3 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA2.lz4" 2 0 2 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA6.lz4" 2 0 6 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA5.lz4" 2 0 5 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA4.lz4" 2 0 4 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_7_0_34" 1924 0 7 batchpointlight_7_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 7 comp_7.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_3_0_34" 4 0 3 batchpointlight_3_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 4 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_6_0_34" 4 0 6 batchpointlight_6_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_5_0_34" 4 0 5 batchpointlight_5_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_4_0_34" 4 0 4 batchpointlight_4_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 4 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 4 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 3 "gi_scence_LMA30.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 2 "gi_scence_LMA20.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 6 "gi_scence_LMA60.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 5 "gi_scence_LMA50.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 4 "gi_scence_LMA40.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 3 "gi_scence_LMA31.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 2 "gi_scence_LMA21.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 6 "gi_scence_LMA61.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 5 "gi_scence_LMA51.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 4 "gi_scence_LMA41.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 3 "gi_scence_LMA32.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 2 "gi_scence_LMA22.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 6 "gi_scence_LMA62.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 5 "gi_scence_LMA52.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 4 "gi_scence_LMA42.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 3 "gi_scence_LMA33.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 2 "gi_scence_LMA23.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 6 "gi_scence_LMA63.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 5 "gi_scence_LMA53.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 4 "gi_scence_LMA43.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 7 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_final" 4 16 3 "gi_scence_LMA34.bin" "scence_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_final" 4 16 2 "gi_scence_LMA24.bin" "scence_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_final" 4 16 6 "gi_scence_LMA64.bin" "scence_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_final" 4 16 5 "gi_scence_LMA54.bin" "scence_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_final" 4 16 4 "gi_scence_LMA44.bin" "scence_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 7 shcomp_7.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "3" "scence_LMA3_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "2" "scence_LMA2_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "6" "scence_LMA6_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "5" "scence_LMA5_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "4" "scence_LMA4_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LMA7 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA13 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA12 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA11 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA10 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA9 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA8 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA14 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA15 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA5 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA4 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA6 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA5.lz4" 2 0 9 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA4.lz4" 2 0 10 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 13 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA14.lz4" 2 0 7 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA2.lz4" 2 0 12 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA13.lz4" 2 0 1 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA3.lz4" 2 0 11 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA12.lz4" 2 0 2 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA15.lz4" 2 0 8 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 14 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA7.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA6.lz4" 2 0 15 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA11.lz4" 2 0 3 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA8.lz4" 2 0 6 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA10.lz4" 2 0 4 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA9.lz4" 2 0 5 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_16_0_34" 1924 0 16 batchpointlight_16_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 16 comp_16.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_9_0_34" 4 0 9 batchpointlight_9_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5" 4 0 9 comp_9.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_10_0_34" 4 0 10 batchpointlight_10_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4" 4 0 10 comp_10.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_13_0_34" 4 0 13 batchpointlight_13_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 13 comp_13.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_7_0_34" 4 0 7 batchpointlight_7_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14" 4 0 7 comp_7.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_12_0_34" 4 0 12 batchpointlight_12_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2" 4 0 12 comp_12.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 4 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13" 4 0 1 comp_1.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_11_0_34" 4 0 11 batchpointlight_11_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3" 4 0 11 comp_11.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 4 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_8_0_34" 4 0 8 batchpointlight_8_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15" 4 0 8 comp_8.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_14_0_34" 4 0 14 batchpointlight_14_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 14 comp_14.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 4 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_15_0_34" 4 0 15 batchpointlight_15_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6" 4 0 15 comp_15.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_3_0_34" 4 0 3 batchpointlight_3_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11" 4 0 3 comp_3.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_6_0_34" 4 0 6 batchpointlight_6_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8" 4 0 6 comp_6.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_4_0_34" 4 0 4 batchpointlight_4_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10" 4 0 4 comp_4.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_5_0_34" 4 0 5 batchpointlight_5_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9" 4 0 5 comp_5.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 9 "gi_scence_LMA50.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 10 "gi_scence_LMA40.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 13 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 7 "gi_scence_LMA140.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 12 "gi_scence_LMA20.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 1 "gi_scence_LMA130.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 11 "gi_scence_LMA30.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 2 "gi_scence_LMA120.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 8 "gi_scence_LMA150.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 14 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 0 "gi_scence_LMA70.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 15 "gi_scence_LMA60.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 3 "gi_scence_LMA110.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 6 "gi_scence_LMA80.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 4 "gi_scence_LMA100.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 5 "gi_scence_LMA90.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 9 "gi_scence_LMA51.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 10 "gi_scence_LMA41.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 13 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 7 "gi_scence_LMA141.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 12 "gi_scence_LMA21.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 1 "gi_scence_LMA131.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 11 "gi_scence_LMA31.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 2 "gi_scence_LMA121.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 8 "gi_scence_LMA151.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 14 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 0 "gi_scence_LMA71.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 15 "gi_scence_LMA61.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 3 "gi_scence_LMA111.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 6 "gi_scence_LMA81.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 4 "gi_scence_LMA101.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 5 "gi_scence_LMA91.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 9 "gi_scence_LMA52.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 10 "gi_scence_LMA42.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 13 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 7 "gi_scence_LMA142.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 12 "gi_scence_LMA22.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 1 "gi_scence_LMA132.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 11 "gi_scence_LMA32.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 2 "gi_scence_LMA122.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 8 "gi_scence_LMA152.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 14 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 0 "gi_scence_LMA72.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 15 "gi_scence_LMA62.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 3 "gi_scence_LMA112.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 6 "gi_scence_LMA82.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 4 "gi_scence_LMA102.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 5 "gi_scence_LMA92.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 9 "gi_scence_LMA53.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 10 "gi_scence_LMA43.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 13 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 7 "gi_scence_LMA143.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 12 "gi_scence_LMA23.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 1 "gi_scence_LMA133.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 11 "gi_scence_LMA33.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 2 "gi_scence_LMA123.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 8 "gi_scence_LMA153.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 14 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 0 "gi_scence_LMA73.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 15 "gi_scence_LMA63.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 3 "gi_scence_LMA113.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 6 "gi_scence_LMA83.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 4 "gi_scence_LMA103.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 5 "gi_scence_LMA93.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 16 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_final" 4 16 9 "gi_scence_LMA54.bin" "scence_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_final" 4 16 10 "gi_scence_LMA44.bin" "scence_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 13 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_final" 4 16 7 "gi_scence_LMA144.bin" "scence_LMA14_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_final" 4 16 12 "gi_scence_LMA24.bin" "scence_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_final" 4 16 1 "gi_scence_LMA134.bin" "scence_LMA13_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_final" 4 16 11 "gi_scence_LMA34.bin" "scence_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_final" 4 16 2 "gi_scence_LMA124.bin" "scence_LMA12_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_final" 4 16 8 "gi_scence_LMA154.bin" "scence_LMA15_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 14 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_final" 4 16 0 "gi_scence_LMA74.bin" "scence_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_final" 4 16 15 "gi_scence_LMA64.bin" "scence_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_final" 4 16 3 "gi_scence_LMA114.bin" "scence_LMA11_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_final" 4 16 6 "gi_scence_LMA84.bin" "scence_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_final" 4 16 4 "gi_scence_LMA104.bin" "scence_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_final" 4 16 5 "gi_scence_LMA94.bin" "scence_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 16 shcomp_16.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "9" "scence_LMA5_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "10" "scence_LMA4_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "13" "scence_LMA1_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA14_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA14_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "7" "scence_LMA14_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "12" "scence_LMA2_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA13_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA13_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA13_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "11" "scence_LMA3_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA12_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA12_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "2" "scence_LMA12_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA15_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA15_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "8" "scence_LMA15_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "14" "scence_LM0_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA7_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA7_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LMA7_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "15" "scence_LMA6_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA11_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA11_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "3" "scence_LMA11_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA8_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA8_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "6" "scence_LMA8_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA10_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA10_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "4" "scence_LMA10_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA9_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA9_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "5" "scence_LMA9_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA14_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA14_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA13_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA13_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA12_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA12_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA15_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA15_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA7_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA11_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA11_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA8_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA8_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA10_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA10_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA9_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA9_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LMA12 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA23 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA22 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA21 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA20 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA19 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA18 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA17 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA16 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA15 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA14 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA13 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA24 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA25 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA10 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA9 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA8 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA7 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA6 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA5 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA4 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA11 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA13.lz4" 2 0 11 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA15.lz4" 2 0 9 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 23 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA20.lz4" 2 0 4 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA2.lz4" 2 0 22 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA18.lz4" 2 0 6 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA19.lz4" 2 0 5 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA3.lz4" 2 0 21 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA16.lz4" 2 0 8 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA17.lz4" 2 0 7 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA25.lz4" 2 0 13 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA23.lz4" 2 0 1 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA24.lz4" 2 0 12 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 24 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA4.lz4" 2 0 20 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA5.lz4" 2 0 19 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA7.lz4" 2 0 17 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA6.lz4" 2 0 18 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA11.lz4" 2 0 25 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA8.lz4" 2 0 16 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA10.lz4" 2 0 14 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA9.lz4" 2 0 15 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA12.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA14.lz4" 2 0 10 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA21.lz4" 2 0 3 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA22.lz4" 2 0 2 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_26_0_34" 1924 0 26 batchpointlight_26_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 26 comp_26.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_11_0_34" 4 0 11 batchpointlight_11_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13" 4 0 11 comp_11.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_9_0_34" 4 0 9 batchpointlight_9_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15" 4 0 9 comp_9.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_23_0_34" 4 0 23 batchpointlight_23_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 23 comp_23.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_4_0_34" 4 0 4 batchpointlight_4_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA20" 4 0 4 comp_4.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_22_0_34" 4 0 22 batchpointlight_22_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2" 4 0 22 comp_22.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_6_0_34" 4 0 6 batchpointlight_6_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA18" 4 0 6 comp_6.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_5_0_34" 4 0 5 batchpointlight_5_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA19" 4 0 5 comp_5.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_21_0_34" 4 0 21 batchpointlight_21_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3" 4 0 21 comp_21.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_8_0_34" 4 0 8 batchpointlight_8_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA16" 4 0 8 comp_8.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_7_0_34" 4 0 7 batchpointlight_7_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA17" 4 0 7 comp_7.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_13_0_34" 4 0 13 batchpointlight_13_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA25" 4 0 13 comp_13.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 4 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA23" 4 0 1 comp_1.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_12_0_34" 4 0 12 batchpointlight_12_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA24" 4 0 12 comp_12.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_24_0_34" 4 0 24 batchpointlight_24_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 24 comp_24.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_20_0_34" 4 0 20 batchpointlight_20_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4" 4 0 20 comp_20.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_19_0_34" 4 0 19 batchpointlight_19_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5" 4 0 19 comp_19.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_17_0_34" 4 0 17 batchpointlight_17_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7" 4 0 17 comp_17.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_18_0_34" 4 0 18 batchpointlight_18_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6" 4 0 18 comp_18.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_25_0_34" 4 0 25 batchpointlight_25_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11" 4 0 25 comp_25.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_16_0_34" 4 0 16 batchpointlight_16_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8" 4 0 16 comp_16.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_14_0_34" 4 0 14 batchpointlight_14_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10" 4 0 14 comp_14.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_15_0_34" 4 0 15 batchpointlight_15_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9" 4 0 15 comp_15.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 4 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_10_0_34" 4 0 10 batchpointlight_10_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14" 4 0 10 comp_10.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_3_0_34" 4 0 3 batchpointlight_3_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA21" 4 0 3 comp_3.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 4 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA22" 4 0 2 comp_2.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 11 "gi_scence_LMA130.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 9 "gi_scence_LMA150.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 23 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA20_diffuse" 4 16 4 "gi_scence_LMA200.bin" "scence_LMA20_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 22 "gi_scence_LMA20.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA18_diffuse" 4 16 6 "gi_scence_LMA180.bin" "scence_LMA18_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA19_diffuse" 4 16 5 "gi_scence_LMA190.bin" "scence_LMA19_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 21 "gi_scence_LMA30.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA16_diffuse" 4 16 8 "gi_scence_LMA160.bin" "scence_LMA16_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA17_diffuse" 4 16 7 "gi_scence_LMA170.bin" "scence_LMA17_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA25_diffuse" 4 16 13 "gi_scence_LMA250.bin" "scence_LMA25_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA23_diffuse" 4 16 1 "gi_scence_LMA230.bin" "scence_LMA23_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA24_diffuse" 4 16 12 "gi_scence_LMA240.bin" "scence_LMA24_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 24 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 20 "gi_scence_LMA40.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 19 "gi_scence_LMA50.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 17 "gi_scence_LMA70.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 18 "gi_scence_LMA60.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 25 "gi_scence_LMA110.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 16 "gi_scence_LMA80.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 14 "gi_scence_LMA100.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 15 "gi_scence_LMA90.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 0 "gi_scence_LMA120.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 10 "gi_scence_LMA140.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA21_diffuse" 4 16 3 "gi_scence_LMA210.bin" "scence_LMA21_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA22_diffuse" 4 16 2 "gi_scence_LMA220.bin" "scence_LMA22_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 11 "gi_scence_LMA131.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 9 "gi_scence_LMA151.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 23 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA20_diffuse" 4 16 4 "gi_scence_LMA201.bin" "scence_LMA20_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 22 "gi_scence_LMA21.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA18_diffuse" 4 16 6 "gi_scence_LMA181.bin" "scence_LMA18_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA19_diffuse" 4 16 5 "gi_scence_LMA191.bin" "scence_LMA19_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 21 "gi_scence_LMA31.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA16_diffuse" 4 16 8 "gi_scence_LMA161.bin" "scence_LMA16_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA17_diffuse" 4 16 7 "gi_scence_LMA171.bin" "scence_LMA17_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA25_diffuse" 4 16 13 "gi_scence_LMA251.bin" "scence_LMA25_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA23_diffuse" 4 16 1 "gi_scence_LMA231.bin" "scence_LMA23_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA24_diffuse" 4 16 12 "gi_scence_LMA241.bin" "scence_LMA24_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 24 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 20 "gi_scence_LMA41.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 19 "gi_scence_LMA51.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 17 "gi_scence_LMA71.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 18 "gi_scence_LMA61.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 25 "gi_scence_LMA111.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 16 "gi_scence_LMA81.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 14 "gi_scence_LMA101.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 15 "gi_scence_LMA91.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 0 "gi_scence_LMA121.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 10 "gi_scence_LMA141.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA21_diffuse" 4 16 3 "gi_scence_LMA211.bin" "scence_LMA21_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA22_diffuse" 4 16 2 "gi_scence_LMA221.bin" "scence_LMA22_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 11 "gi_scence_LMA132.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 9 "gi_scence_LMA152.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 23 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA20_diffuse" 4 16 4 "gi_scence_LMA202.bin" "scence_LMA20_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 22 "gi_scence_LMA22.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA18_diffuse" 4 16 6 "gi_scence_LMA182.bin" "scence_LMA18_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA19_diffuse" 4 16 5 "gi_scence_LMA192.bin" "scence_LMA19_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 21 "gi_scence_LMA32.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA16_diffuse" 4 16 8 "gi_scence_LMA162.bin" "scence_LMA16_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA17_diffuse" 4 16 7 "gi_scence_LMA172.bin" "scence_LMA17_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA25_diffuse" 4 16 13 "gi_scence_LMA252.bin" "scence_LMA25_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA23_diffuse" 4 16 1 "gi_scence_LMA232.bin" "scence_LMA23_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA24_diffuse" 4 16 12 "gi_scence_LMA242.bin" "scence_LMA24_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 24 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 20 "gi_scence_LMA42.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 19 "gi_scence_LMA52.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 17 "gi_scence_LMA72.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 18 "gi_scence_LMA62.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 25 "gi_scence_LMA112.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 16 "gi_scence_LMA82.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 14 "gi_scence_LMA102.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 15 "gi_scence_LMA92.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 0 "gi_scence_LMA122.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 10 "gi_scence_LMA142.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA21_diffuse" 4 16 3 "gi_scence_LMA212.bin" "scence_LMA21_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA22_diffuse" 4 16 2 "gi_scence_LMA222.bin" "scence_LMA22_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_diffuse" 4 16 11 "gi_scence_LMA133.bin" "scence_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_diffuse" 4 16 9 "gi_scence_LMA153.bin" "scence_LMA15_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 23 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA20_diffuse" 4 16 4 "gi_scence_LMA203.bin" "scence_LMA20_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_diffuse" 4 16 22 "gi_scence_LMA23.bin" "scence_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA18_diffuse" 4 16 6 "gi_scence_LMA183.bin" "scence_LMA18_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA19_diffuse" 4 16 5 "gi_scence_LMA193.bin" "scence_LMA19_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_diffuse" 4 16 21 "gi_scence_LMA33.bin" "scence_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA16_diffuse" 4 16 8 "gi_scence_LMA163.bin" "scence_LMA16_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA17_diffuse" 4 16 7 "gi_scence_LMA173.bin" "scence_LMA17_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA25_diffuse" 4 16 13 "gi_scence_LMA253.bin" "scence_LMA25_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA23_diffuse" 4 16 1 "gi_scence_LMA233.bin" "scence_LMA23_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA24_diffuse" 4 16 12 "gi_scence_LMA243.bin" "scence_LMA24_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 24 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_diffuse" 4 16 20 "gi_scence_LMA43.bin" "scence_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_diffuse" 4 16 19 "gi_scence_LMA53.bin" "scence_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_diffuse" 4 16 17 "gi_scence_LMA73.bin" "scence_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_diffuse" 4 16 18 "gi_scence_LMA63.bin" "scence_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_diffuse" 4 16 25 "gi_scence_LMA113.bin" "scence_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_diffuse" 4 16 16 "gi_scence_LMA83.bin" "scence_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_diffuse" 4 16 14 "gi_scence_LMA103.bin" "scence_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_diffuse" 4 16 15 "gi_scence_LMA93.bin" "scence_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_diffuse" 4 16 0 "gi_scence_LMA123.bin" "scence_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_diffuse" 4 16 10 "gi_scence_LMA143.bin" "scence_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA21_diffuse" 4 16 3 "gi_scence_LMA213.bin" "scence_LMA21_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA22_diffuse" 4 16 2 "gi_scence_LMA223.bin" "scence_LMA22_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 26 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA13_final" 4 16 11 "gi_scence_LMA134.bin" "scence_LMA13_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA15_final" 4 16 9 "gi_scence_LMA154.bin" "scence_LMA15_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 23 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA20_final" 4 16 4 "gi_scence_LMA204.bin" "scence_LMA20_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA2_final" 4 16 22 "gi_scence_LMA24.bin" "scence_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA18_final" 4 16 6 "gi_scence_LMA184.bin" "scence_LMA18_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA19_final" 4 16 5 "gi_scence_LMA194.bin" "scence_LMA19_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA3_final" 4 16 21 "gi_scence_LMA34.bin" "scence_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA16_final" 4 16 8 "gi_scence_LMA164.bin" "scence_LMA16_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA17_final" 4 16 7 "gi_scence_LMA174.bin" "scence_LMA17_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA25_final" 4 16 13 "gi_scence_LMA254.bin" "scence_LMA25_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA23_final" 4 16 1 "gi_scence_LMA234.bin" "scence_LMA23_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA24_final" 4 16 12 "gi_scence_LMA244.bin" "scence_LMA24_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 24 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA4_final" 4 16 20 "gi_scence_LMA44.bin" "scence_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA5_final" 4 16 19 "gi_scence_LMA54.bin" "scence_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA7_final" 4 16 17 "gi_scence_LMA74.bin" "scence_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA6_final" 4 16 18 "gi_scence_LMA64.bin" "scence_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA11_final" 4 16 25 "gi_scence_LMA114.bin" "scence_LMA11_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA8_final" 4 16 16 "gi_scence_LMA84.bin" "scence_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA10_final" 4 16 14 "gi_scence_LMA104.bin" "scence_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA9_final" 4 16 15 "gi_scence_LMA94.bin" "scence_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA12_final" 4 16 0 "gi_scence_LMA124.bin" "scence_LMA12_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA14_final" 4 16 10 "gi_scence_LMA144.bin" "scence_LMA14_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA21_final" 4 16 3 "gi_scence_LMA214.bin" "scence_LMA21_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA22_final" 4 16 2 "gi_scence_LMA224.bin" "scence_LMA22_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 26 shcomp_26.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA13_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA13_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "11" "scence_LMA13_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA15_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA15_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "9" "scence_LMA15_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "23" "scence_LMA1_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA20_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA20_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "4" "scence_LMA20_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "22" "scence_LMA2_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA18_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA18_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "6" "scence_LMA18_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA19_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA19_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "5" "scence_LMA19_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "21" "scence_LMA3_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA16_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA16_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "8" "scence_LMA16_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA17_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA17_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "7" "scence_LMA17_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA25_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA25_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "13" "scence_LMA25_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA23_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA23_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA23_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA24_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA24_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "12" "scence_LMA24_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "24" "scence_LM0_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "20" "scence_LMA4_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "19" "scence_LMA5_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA7_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA7_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "17" "scence_LMA7_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "18" "scence_LMA6_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA11_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA11_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "25" "scence_LMA11_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA8_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA8_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "16" "scence_LMA8_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA10_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA10_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "14" "scence_LMA10_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA9_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA9_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "15" "scence_LMA9_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA12_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA12_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LMA12_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA14_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA14_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "10" "scence_LMA14_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA21_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA21_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "3" "scence_LMA21_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA22_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA22_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "2" "scence_LMA22_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA13_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA13_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA15_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA15_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA20_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA20_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA2_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA18_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA18_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA19_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA19_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA3_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA16_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA16_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA17_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA17_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA25_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA25_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA23_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA23_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA24_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA24_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA4_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA5_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA7_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA6_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA11_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA11_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA8_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA8_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA10_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA10_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA9_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA9_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA12_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA12_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA14_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA14_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA21_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA21_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA22_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA22_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 1924 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 1924 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgish "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 1924 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgish "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 1924 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L0.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1z.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_L0.lz4" "scence_LM0_final_L1x.lz4" "scence_LM0_final_L1y.lz4" "scence_LM0_final_L1z.lz4"
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L0.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_L0.lz4" "scence_LMA1_final_L1x.lz4" "scence_LMA1_final_L1y.lz4" "scence_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L0.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_L0.hdr" 1024
+Running combineSH  "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_L1.tga" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L0.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_L0.hdr" 1024
+Running combineSH  "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_L1.tga" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1z.lz4"
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 1924 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 1924 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgish "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 1924 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgish "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 1924 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L0.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1z.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_L0.lz4" "scence_LM0_final_L1x.lz4" "scence_LM0_final_L1y.lz4" "scence_LM0_final_L1z.lz4"
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L0.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_L0.lz4" "scence_LMA1_final_L1x.lz4" "scence_LMA1_final_L1y.lz4" "scence_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L0.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_L0.hdr" 1024
+Running combineSH  "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_L1.tga" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L0.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_L0.hdr" 1024
+Running combineSH  "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_L1.tga" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1z.lz4"
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX9.exe interactive "C:\Users\mango\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 1924 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 1924 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgish "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 1924 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgish "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 1924 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L0.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1z.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_L0.lz4" "scence_LM0_final_L1x.lz4" "scence_LM0_final_L1y.lz4" "scence_LM0_final_L1z.lz4"
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L0.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_L0.lz4" "scence_LMA1_final_L1x.lz4" "scence_LMA1_final_L1y.lz4" "scence_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L0.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_L0.hdr" 1024
+Running combineSH  "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_L1.tga" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L0.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_L0.hdr" 1024
+Running combineSH  "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_L1.tga" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1x.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1y.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_L1z.lz4"
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 4 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 4 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX9.exe interactive "C:\Users\mango\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_34" 4 0 0 batchpointlight_0_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_34" 4 0 1 batchpointlight_1_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_34" 1924 0 2 batchpointlight_2_0_34.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 2048x2048: 3
+Done
+Running ftraceRTX9.exe interactive "C:\Users\mango\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 2048x2048: 3
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_65" 1924 0 2 batchpointlight_2_0_65.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_65" 4 0 1 batchpointlight_1_0_65.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_65" 4 0 0 batchpointlight_0_0_65.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 2048x2048: 3
+Done
+Rendering UV GBuffer for scence_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for scence_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_scence_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_65" 1924 0 2 batchpointlight_2_0_65.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_65" 4 0 1 batchpointlight_1_0_65.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_65" 4 0 0 batchpointlight_0_0_65.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA10.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM00.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA11.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM01.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA12.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM02.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_diffuse" 4 16 1 "gi_scence_LMA13.bin" "scence_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_diffuse" 4 16 0 "gi_scence_LM03.bin" "scence_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LMA1_final" 4 16 1 "gi_scence_LMA14.bin" "scence_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "scence_LM0_final" 4 16 0 "gi_scence_LM04.bin" "scence_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "scence_LMA1_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "scence_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/scence_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/scence_LM0_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Done
+Done
+Done
+Done

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 24ef4ffcd5181794c8bcd9ab26169adb
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -225,9 +225,10 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["XFHZ_Shushezhuoyi_wp_xianshiping_002","XFHZ_Shushezhuoyi_wp_xiankuang","XFHZ_Shushezhuoyi_wp_shubiaodian_001","XFHZ_Shushezhuoyi_wp_chouzhi_001","XFHZ_Shushezhuoyi_wp_beizi_002","XFHZ_Shushezhuoyi_wp_yagao","XFHZ_Shushezhuoyi_wp_shubiaodian_002","XFHZ_Shushezhuoyi_wp_shubao1","XFHZ_Shushezhuoyi_wp_shubao","XFHZ_Shushezhuoyi_wp_diannao_002","XFHZ_Shushezhuoyi_wp_diannao_001","XFHZ_Shushezhuoyi_wp_penzai","XFHZ_Shushezhuoyi_wp_guago02","XFHZ_Shushezhuoyi_wp_guago01","XFHZ_Shushezhuoyi_wp_gai2","XFHZ_Shushezhuoyi_wp_gai1","XFHZ_Shushezhuoyi_wp_beizi_001","XFHZ_Shushezhuoyi_wp_shu_014","XFHZ_Shushezhuoyi_wp_shu_013","XFHZ_Shushezhuoyi_wp_shu_012","XFHZ_Shushezhuoyi_wp_shu_011","XFHZ_Shushezhuoyi_wp_shu_010","XFHZ_Shushezhuoyi_wp_shu_009","XFHZ_Shushezhuoyi_wp_shu_008","XFHZ_Shushezhuoyi_wp_shu_007","XFHZ_Shushezhuoyi_wp_shu_006","XFHZ_Shushezhuoyi_wp_shu_005","XFHZ_Shushezhuoyi_wp_shu_004","XFHZ_Shushezhuoyi_wp_shu_003","XFHZ_Shushezhuoyi_wp_shu_002","XFHZ_Shushezhuoyi_wp_shu_001","XFHZ_Shushezhuoyi_yizi_001","XFHZ_Shushezhuoyi_yizi1_002","XFHZ_Shushezhuoyi_muban","XFHZ_Shushezhuoyi_guizi","XFHZ_Shushezhuoyi_guimen_004","XFHZ_Shushezhuoyi_guimen_003","XFHZ_Shushezhuoyi_guimen_002","XFHZ_Shushezhuoyi_guimen_001","XFHZ_Shushezhuoyi_chuangjia","XFHZ_Shushezhuoyi_chouti_04","XFHZ_Shushezhuoyi_chouti_03","XFHZ_Shushezhuoyi_chouti_02","XFHZ_Shushezhuoyi_chouti_01","XFHZ_sanjiantao_zhentoui_02","XFHZ_sanjiantao_zhentou_01","XFHZ_sanjiantao_dianbei_02","XFHZ_sanjiantao_dianbei_01","XFHZ_sanjiantao_beizi_02","XFHZ_sanjiantao_beizi_01","XFHZ_XFQC_bai9","XFHZ_XFQC_bai8","XFHZ_XFQC_bai7","XFHZ_XFQC_bai6","XFHZ_XFQC_bai5","XFHZ_XFQC_bai4","polySurface93","polySurface91","polySurface90","polySurface88","polySurface86","polySurface84","polySurface82","polySurface80","polySurface66","polySurface49","polySurface17","polySurface79","polySurface89","polySurface87","polySurface85","polySurface83","polySurface81","polySurface67","polySurface63","polySurface62","polySurface3","polySurface60","polySurface61","XFHZ_shuiguanliangyijia__dengzhao","XFHZ_shuiguanliangyijia__dengdizuo","XFHZ_shuiguanliangyijia_guandao4","XFHZ_shuiguanliangyijia_guandao3","XFHZ_shuiguanliangyijia_guandao1","XFHZ_shuiguanliangyijia__zhijiekou","XFHZ_shuiguanliangyijia__wanjiekou","XFHZ_shuiguanliangyijia__sanjiekou","XFHZ_shuiguanliangyijia__luosi3","XFHZ_shuiguanliangyijia__luosi2","XFHZ_shuiguanliangyijia__guandaoguding3","XFHZ_shuiguanliangyijia__guandaoguding","wall18","wall17","wall16","wall15","wall14","wall13","wall12","wall6","tianhuaban","qiangzhuan12","qiangzhuan11","qiangzhuan10","qiangzhuan9","qiangzhuan8","qiangzhuan7","qiangzhuan6","qiangzhuan5","qiangzhuan4","qiangzhuan3","qiangzhuan2","qiangzhuan1","pCube13","pCube12","pCube11","pCube10","pCube9","pCube6","pCube4","pCube1","ground"],"padding":[195,256,256,256,256,256,256,256,256,149,118,256,256,256,256,256,256,150,256,256,256,256,256,256,256,256,256,256,256,256,256,69,69,42,17,166,166,77,77,37,163,163,134,134,152,152,55,55,68,68,256,256,256,256,256,256,51,256,256,256,256,256,256,256,256,146,256,256,256,256,256,256,256,256,256,256,55,256,256,224,168,256,256,121,256,256,256,256,256,256,256,8,8,8,8,8,8,8,8,1,85,60,85,85,60,85,85,60,85,85,60,85,25,25,4,27,27,31,4,32,3],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -235,7 +236,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -243,7 +243,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -263,7 +263,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -296,7 +295,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
