@@ -3,7 +3,22 @@ guid: e178ea352698fbe48b83a40c29ba33de
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BM_FireEx
+    second: {fileID: 2100000, guid: 5b4acb39ffb57ec45aedf9d62b3afe97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: b61475849324c9040b7e29e4baf6b93b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: renwu
+    second: {fileID: 2100000, guid: be7f3c9a84d794c48b3ae2dccffc69aa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

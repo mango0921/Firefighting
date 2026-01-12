@@ -3,7 +3,17 @@ guid: aff141c44bf226843ad438a1a4a75f99
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BM_FireEx1
+    second: {fileID: 2100000, guid: 5b4acb39ffb57ec45aedf9d62b3afe97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: af11a1cafdb4d71489574a14b22c4188, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
