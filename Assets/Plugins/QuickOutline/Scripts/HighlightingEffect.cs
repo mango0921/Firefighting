@@ -197,7 +197,7 @@ namespace QuickOutline
             //不支持渲染纹理格式
             if (!SystemInfo.SupportsRenderTextureFormat(RenderTextureFormat.ARGB32))
             {
-                Log.LogWarning("HighlightingSystem : RenderTextureFormat.ARGB32 is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : RenderTextureFormat.ARGB32 is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
@@ -205,7 +205,7 @@ namespace QuickOutline
             //不支持Highlighting Stencil着色器
             if (!Shader.Find("Hidden/Highlighted/StencilOpaque").isSupported)
             {
-                Log.LogWarning("HighlightingSystem : HighlightingStencilOpaque shader is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : HighlightingStencilOpaque shader is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
@@ -213,7 +213,7 @@ namespace QuickOutline
             //不支持Highlighting StencilTransparent着色器
             if (!Shader.Find("Hidden/Highlighted/StencilTransparent").isSupported)
             {
-                Log.LogWarning("HighlightingSystem : HighlightingStencilTransparent shader is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : HighlightingStencilTransparent shader is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
@@ -221,7 +221,7 @@ namespace QuickOutline
             //不支持Highlighting StencilZ着色器
             if (!Shader.Find("Hidden/Highlighted/StencilOpaqueZ").isSupported)
             {
-                Log.LogWarning("HighlightingSystem : HighlightingStencilOpaqueZ shader is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : HighlightingStencilOpaqueZ shader is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
@@ -229,7 +229,7 @@ namespace QuickOutline
             //不支持Highlighting StencilTransparentZ着色器
             if (!Shader.Find("Hidden/Highlighted/StencilTransparentZ").isSupported)
             {
-                Log.LogWarning("HighlightingSystem : HighlightingStencilTransparentZ shader is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : HighlightingStencilTransparentZ shader is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
@@ -237,7 +237,7 @@ namespace QuickOutline
             //不支持HighlightingBlur着色器
             if (!BlurShader.isSupported)
             {
-                Log.LogWarning("HighlightingSystem : HighlightingBlur shader is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : HighlightingBlur shader is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
@@ -245,7 +245,7 @@ namespace QuickOutline
             //不支持HighlightingComposite着色器
             if (!CompositeShader.isSupported)
             {
-                Log.LogWarning("HighlightingSystem : HighlightingComposite shader is not supported on this platform! Disabling.");
+                Debug.LogWarning("HighlightingSystem : HighlightingComposite shader is not supported on this platform! Disabling.");
                 enabled = false;
                 return;
             }
