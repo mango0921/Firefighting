@@ -730,7 +730,11 @@ MonoBehaviour:
   - "Assets/art/houxu/dongzuo/\u706D\u706B\u5668\u52A8\u4F5C.fbx"
   - Assets/art/houxu/fangjianmokuai.fbx
   - Assets/art/houxu/miehuoqi.fbx
-  uvOverlapAssetList: 00000000ffffffff000000000101000000000000010100000101000000000000000000000101000000000000
+  - Assets/art/guangquan/TeleportMarker.fbx
+  - "Assets/art/houxu/\u6D88\u9632\u6813/xiaofangshuan.fbx"
+  - Assets/art/lianpen/shuipen.fbx
+  - "Assets/art/houxu/\u6D88\u9632\u6813/xiaofangshuan1.fbx"
+  uvOverlapAssetList: 00000000ffffffff00000000010100000000000001010000010100000000000000000000010100000000000001010000010100000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName_2: NVIDIA GeForce RTX 4070 Ti

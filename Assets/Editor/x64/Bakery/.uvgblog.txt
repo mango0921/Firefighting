@@ -1428,3 +1428,222 @@ Done
 Done
 Done
 Done
+2026-1-18
+Rendering UV GBuffer for dayan_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for dayan_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_56" 1924 0 2 batchpointlight_2_0_56.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_56" 4 0 1 batchpointlight_1_0_56.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_56" 4 0 0 batchpointlight_0_0_56.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA10.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM00.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA11.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM01.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA12.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM02.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA13.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM03.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_final" 4 16 1 "gi_dayan_LMA14.bin" "dayan_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_final" 4 16 0 "gi_dayan_LM04.bin" "dayan_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "dayan_LMA1_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "dayan_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LM0_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 3
+Done
+Rendering UV GBuffer for dayan_LM0 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for dayan_LMA1 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for dayan_LMA2 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for dayan_LMA3 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for dayan_LMA4 50
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LMA2.lz4" 2 0 2 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LMA3.lz4" 2 0 3 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LMA1.lz4" 2 0 1 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LMA4.lz4" 2 0 4 0
+Running ftraceRTX9 fixpos12 "C:\Users\mango\AppData\Local\Temp\frender" "uvpos_dayan_LM0.lz4" 2 0 0 0
+Running ftraceRTX9 batchpointlightprobeshlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_5_0_30" 1924 0 5 batchpointlight_5_0_30.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "probes" 4 0 5 comp_5.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_2_0_30" 4 0 2 batchpointlight_2_0_30.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_3_0_30" 4 0 3 batchpointlight_3_0_30.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_1_0_30" 4 0 1 batchpointlight_1_0_30.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_4_0_30" 4 0 4 batchpointlight_4_0_30.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX9 batchpointlightlegacy "C:\Users\mango\AppData\Local\Temp\frender" "PointBatch_0_0_30" 4 0 0 batchpointlight_0_0_30.bin
+Running ftraceRTX9 addmul "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA2_diffuse" 4 16 2 "gi_dayan_LMA20.bin" "dayan_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA3_diffuse" 4 16 3 "gi_dayan_LMA30.bin" "dayan_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA10.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA4_diffuse" 4 16 4 "gi_dayan_LMA40.bin" "dayan_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM00.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA2_diffuse" 4 16 2 "gi_dayan_LMA21.bin" "dayan_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA3_diffuse" 4 16 3 "gi_dayan_LMA31.bin" "dayan_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA11.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA4_diffuse" 4 16 4 "gi_dayan_LMA41.bin" "dayan_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM01.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA2_diffuse" 4 16 2 "gi_dayan_LMA22.bin" "dayan_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA3_diffuse" 4 16 3 "gi_dayan_LMA32.bin" "dayan_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA12.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA4_diffuse" 4 16 4 "gi_dayan_LMA42.bin" "dayan_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM02.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA2_diffuse" 4 16 2 "gi_dayan_LMA23.bin" "dayan_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA3_diffuse" 4 16 3 "gi_dayan_LMA33.bin" "dayan_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_diffuse" 4 16 1 "gi_dayan_LMA13.bin" "dayan_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA4_diffuse" 4 16 4 "gi_dayan_LMA43.bin" "dayan_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_diffuse" 4 16 0 "gi_dayan_LM03.bin" "dayan_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgiprobesh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final" 1924 16 5 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA2_final" 4 16 2 "gi_dayan_LMA24.bin" "dayan_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA3_final" 4 16 3 "gi_dayan_LMA34.bin" "dayan_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA1_final" 4 16 1 "gi_dayan_LMA14.bin" "dayan_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LMA4_final" 4 16 4 "gi_dayan_LMA44.bin" "dayan_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 texgi "C:\Users\mango\AppData\Local\Temp\frender" "dayan_LM0_final" 4 16 0 "gi_dayan_LM04.bin" "dayan_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX9 addsh "C:\Users\mango\AppData\Local\Temp\frender" "probes_final_" 4 0 5 shcomp_5.bin
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA2_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "2" "dayan_LMA2_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA3_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "3" "dayan_LMA3_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA1_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "1" "dayan_LMA1_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA4_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "4" "dayan_LMA4_final_HDR.lz4"
+Running denoiserOIDN2 c "C:\Users\mango\AppData\Local\Temp\frender/dayan_LM0_final_HDR.lz4" "C:\Users\mango\AppData\Local\Temp\frender/dayan_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\mango\AppData\Local\Temp\frender" "0" "dayan_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA2_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA3_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA1_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LMA4_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\mango\AppData\Local\Temp\frender/dayan_LM0_final_HDR.lz4" "D:/Project/Firefighting/Assets/BakeryLightmaps/dayan_LM0_final.hdr" 1024
+
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Project\Firefighting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+

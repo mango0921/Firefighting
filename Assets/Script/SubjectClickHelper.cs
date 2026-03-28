@@ -11,9 +11,10 @@ public class SubjectClickHelper : MonoBehaviour
 {
     private bool clicked = true;
     private bool isHighLight = false;
+    private CancellationTokenSource cancellationTokenSource;
     void OnMouseDown()
     {
-        if (clicked)
+        if (!clicked)
         {
             clicked = true;
         }
@@ -31,10 +32,20 @@ public class SubjectClickHelper : MonoBehaviour
     public async UniTask WaitObjectClick()
     {
         OpenHighLight();
-        bool clicked = false;
-        await UniTask.WaitUntil(() => clicked);
+        clicked = false;
+        var cancellationToken = this.GetCancellationTokenOnDestroy();
+        cancellationTokenSource = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+        await UniTask.WaitUntil(() => clicked, cancellationToken: cancellationTokenSource.Token);
         CloseHightLight();
     }
-
+    public void CancelWait()
+    {
+        if (cancellationTokenSource != null && !cancellationTokenSource.IsCancellationRequested)
+        {
+            cancellationTokenSource.Cancel();
+            clicked = true;
+            CloseHightLight();
+        }
+    }
 
 }

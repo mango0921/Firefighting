@@ -3,7 +3,27 @@ guid: fc70c98d49633c244b061c32f67d2ed2
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WALL
+    second: {fileID: 2100000, guid: b728927a8ff8a964eb21f0334c8af1be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_Sushemen_met
+    second: {fileID: 2100000, guid: 015131b3586060a4b9328d0924c7b987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_chuanghu__met
+    second: {fileID: 2100000, guid: 703393730dff6864db3dfde2974e9597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: XFHZ_chuanghu_trn_met
+    second: {fileID: 2100000, guid: f7a188f322188a84e91d63698527c2e7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -32,7 +52,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
